@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">BookMyTractor</string>
+    <string name="auth_api_key">x-api-key:d7f43832ee98a0868ea87b2e4d97c95a</string>
+    <string name="err_msg_mobile">Mobile number must be 10 digits</string>"
+    <string name="err_msg_pwd" tools:ignore="TypographyDashes">Password should be between 6-20 characters</string>
+    <string name="err_msg_name" tools:ignore="TypographyDashes">Name cannot be blank</string>
+    <string name="gps_disabled_caution">Your Locations Settings is set to \\\'OffPlease Enable Location to use this app</string>
+</resources>

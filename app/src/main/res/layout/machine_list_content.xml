@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relateGrid"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="@android:color/transparent"
+        android:elevation="10dp"
+        app:cardCornerRadius="8dp"
+        tools:ignore="UnusedAttribute">
+
+        <ImageView
+            android:id="@+id/folderImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foreground="#4D000000"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/horizontal_padding"
+            android:layout_marginLeft="@dimen/horizontal_padding"
+            android:layout_marginRight="@dimen/horizontal_padding"
+            android:layout_marginTop="@dimen/horizontal_padding"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/machineName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TITLE"
+                android:textColor="@color/Backgroundoffwhite"
+                android:textSize="24sp"
+                tools:ignore="MissingPrefix" />
+
+            <View
+                android:layout_width="46dp"
+                android:layout_height="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_green_dark" />
+
+            <TextView
+                android:id="@+id/machinePrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/horizontal_padding"
+                android:text="13 ITEMS"
+                android:textColor="@color/Backgroundoffwhite"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:ignore="MissingPrefix" />
+            <!--android:layout_above="@+id/collection_countId"-->
+            <!--android:layout_marginBottom="10dp"-->
+
+            <TextView
+                android:id="@+id/cropsNames"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/horizontal_padding"
+                android:layout_marginTop="5dp"
+                android:text="Updated 10 minutes ago"
+                android:textColor="@color/Backgroundoffwhite"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:ignore="MissingPrefix" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>
